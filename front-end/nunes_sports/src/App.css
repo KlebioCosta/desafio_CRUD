@@ -1,0 +1,97 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background: rgba(21, 6, 6, 0.8); /* Fundo cinza com opacidade */
+  color: white; /* Cor de Texto Clara */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Form Container */
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 1000px; /* Aumenta a largura máxima da container */
+  margin: 20px auto;
+}
+
+/* Form Background */
+.form-background {
+  background: rgba(21, 6, 6, 0.8); /* Fundo do Formulário com Opacidade */
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  width: 100%; /* Ocupa 100% da largura da container */
+}
+
+/* Button */
+.button {
+  background-color: #FFC300; /* Cor Secundária Moderada */
+  color: #FFFFFF; /* Texto Branco */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: 5px;
+}
+
+.button-primary {
+  background-color: #FF5733; /* Cor Primária */
+}
+
+
+
+
+
+/* Table */
+.table {
+  width: 100%;
+  border-radius: 8px;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.table th, .table td {
+  padding: 15px; /* Aumenta o padding das células */
+  text-align: left;
+}
+
+.table th {
+  background: rgba(21, 6, 6, 0.8); 
+  color: white;
+}
+
+.table tr:nth-child(even) {
+  background-color: rgba(21, 6, 6, 0.6); /* Fundo Alternado na Tabela */
+}
+
+/* Form */
+.form-group {
+  margin-bottom: 20px; /* Aumenta a margem inferior do grupo de formulários */
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input, .textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #DDDDDD;
+  border-radius: 4px;
+}
+
+.input:focus, .textarea:focus {
+  border-color: #FF5733; /* Cor Primária Vibrante */
+  outline: none;
+}
