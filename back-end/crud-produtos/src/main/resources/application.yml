@@ -4,16 +4,16 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/nunes_sports
     username: postgres
-    password: arroz123
+    password: 1234
     driver-class-name: org.postgresql.Driver
     flyway:
       url: jdbc:postgresql://localhost:5432/nunes_sports
       user: postgres
-      password: arroz123
+      password: 1234
       baseline-on-migrate: true
   jpa:
     hibernate:
-      ddl-auto: update  # ou 'create'/'create-drop', dependendo do que você deseja
+      ddl-auto: update  # ou 'create'/'create-drop', dependendo do que vocï¿½ deseja
     show-sql: true
     properties:
       hibernate:
